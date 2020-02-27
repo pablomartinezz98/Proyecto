@@ -1,0 +1,145 @@
+*{margin:0;}
+html, body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+background-color: #ECF0F5;
+font-family: Book Antiqua;
+}
+header{
+    height: 90px;
+    background-color: white;
+color: blue; }
+#contenedor{
+    height:80%;
+    }
+#pagina{
+    height: 80%;
+}
+main{
+    background-color: white;
+    margin:10px;
+}
+article{
+    height: auto; }
+aside{
+    height: auto;
+    background-color: white;
+    margin: 10px;}
+
+    /*CURSOS*/
+.cursos{
+    list-style: none;
+    }
+    .cursos li{
+        padding-bottom: 15px;
+    }
+    .cursos li a{
+        color:#5BA0D6;
+    }
+    .cursos p:hover{color:#206398}
+    .cursos h3{
+        margin: 5px;
+        padding: 10px;
+        color:white;
+        background-color: #5BA0D6;
+        opacity: 0.6;
+    }
+    /*HORARIO*/
+    .izq h3{
+        margin: 10px;
+        padding: 15px;
+        color:white;
+        background-color: #5BA0D6;
+        opacity: 0.6;
+    }
+    .izq span p{
+        padding-top: 15px;
+        color:#5BA0D6;
+        margin: 10px;
+
+    }
+    /*CENTRO*/
+    #centro{
+        margin-left: 250px;
+        margin-right: 250px;
+
+    }
+    #centro h2{
+        margin:10px;
+        padding:15px;
+        text-align: center;
+        color:#5BA0D6;
+    }
+    .imagen{
+        width: 675px;
+        height: 350px;
+        display: block;
+        margin: auto;
+    }
+    .bilingue{
+        width: 325px;
+        height: 150px;
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+    }
+    #centro p{
+        margin:5px;
+        padding: 5px;
+        color: grey;
+    }
+    /*MENU*/
+    
+   .logo:hover{background-color: grey;}
+    header{
+        padding: 2em;
+    }
+    .menu1{display: flex;
+    align-items: center;}
+
+    .menu1 li{
+        display: inline-block;
+        margin: auto;
+    }
+    .menu1 li a { 
+ text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    float: left;
+    padding: 30px;;
+    color:#5BA0D6;
+    display: block
+    ;
+    }
+    .menu1 li a:hover{
+        color: #206398;
+    }
+    footer{
+        display: block;
+        background-color:#DFAA00;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+        color: white;}
+        
+        footer div i {
+          display: block;
+        font-size: 25px;
+        padding: 5px;
+        color: white;
+        ;}
+        footer i:hover{color:black;}
+        #redes{
+            width: 100%;
+            display: inline-block;
+        }
+        #direccion{
+            width: 100%;
+            display: inline-block;
+        }
+   
+        
+    
+    
