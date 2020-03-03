@@ -24,8 +24,9 @@ font-size: 15px;
 float: left;
 padding: 30px;;
 color:#5BA0D6;
-display: block
-;
+display: block;}
+.menu1 li a:hover{
+    color: #206398;
 }
 /*HORARIO*/
 .izq h3{
