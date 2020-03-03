@@ -41,6 +41,9 @@ display: block;}
     color:#5BA0D6;
     margin: 10px;
 }
+.izq span p:hover{
+    color:#206398;
+}
 /*CURSOS*/
 .cursos{
     list-style: none;
@@ -50,8 +53,11 @@ display: block;}
     }
     .cursos li a{
         color:#5BA0D6;
+        text-decoration: none;
     }
-    .cursos p:hover{color:#206398}
+    .cursos li a:hover{
+        color:#206398;
+    }
     .cursos h3{
         margin: 5px;
         padding: 10px;
@@ -59,6 +65,8 @@ display: block;}
         background-color: #5BA0D6;
         opacity: 0.6;
     }
+    
+    /*PIE*/
     footer{
         display: block;
         background-color:#DFAA00;
