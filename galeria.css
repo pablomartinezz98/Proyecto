@@ -3,7 +3,7 @@ header{height: 100px; background-color: white;}
 #contenedor{margin: 10px;}
 
 aside{background-color: white;height: auto;}
-article{height: 200px; background-color: salmon; border: 1px solid blue;}
+article{height: 200px; background-color: white;margin: 0px 10px 10px 10px;}
 /*MENU*/
     
 .logo:hover{background-color: grey;}
