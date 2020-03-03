@@ -1,9 +1,9 @@
-body{margin: 0;background-color: #ECF0F5;}
+body{margin: 0;background-color: #ECF0F5;font-family: book antiqua;}
 header{height: 100px; background-color: white;}
 #contenedor{margin: 10px;}
-main{background-color: white;margin: 0px 10px 10px 10px;}
+main{background-color: white;margin: 0px 35px 10px 35px;}
 aside{background-color: white;height: auto;}
-article{height: 200px; background-color: white;margin: 0px 10px 10px 10px;}
+article{width: 100%; background-color: white;}
 /*MENU*/
     
 .logo:hover{background-color: grey;}
@@ -78,6 +78,9 @@ display: block;}
             max-width:960px;
             column-count: 3;
         }
+    figure img{margin: 25px;}
+    
+      
     
     /*PIE*/
     footer{
@@ -121,6 +124,9 @@ main{
 .der{
     flex: 15%;
 }
+#galeria{
+    column-count: 3;
+}
 
 
 /*TABLET*/
@@ -135,6 +141,11 @@ main{
     .der{
         flex: 20%;
     }
+    #galeria{
+        column-count: 2;
+        display: block;
+    margin: auto;
+    }
     }
 
 /*MOVIL*/
@@ -144,12 +155,19 @@ main{
             display: none;
         }
         main{
-            flex: 100%;
+            flex: 100%; 
         }
         .der{
             display:none
         }
+        #galeria{
+            column-count: 1;
         }
+        img{display: block;
+        margin: auto;
+        }
+        figcaption{text-align: center;}
+    }
         
     
 
