@@ -1,7 +1,7 @@
 body{margin: 0;background-color: #ECF0F5;font-family: book antiqua;}
-header{height: 100px; background-color: white;}
+header{height: 150px; background-color: white;}
 #contenedor{margin: 10px;}
-main{background-color: white;margin: 0px 35px 10px 35px;}
+main{background-color: white;margin: 0px 20px 10px 20px;}
 aside{background-color: white;height: auto;}
 article{width: 100%; background-color: white;}
 /*MENU*/
@@ -72,15 +72,22 @@ display: block;}
         text-align: center;
         color:#5BA0D6;
     }
-    #galeria{
-        margin: 1rem auto;
-            width:100%;
-            max-width:960px;
-            column-count: 3;
-        }
-    figure img{margin: 25px;}
-    
-      
+    .galeria {
+        display: ;
+        grid-auto-rows: 200px;
+        grid-gap: 1rem;
+        grid-auto-flow: row dense;
+        
+    }
+       .imagen:nth-child(11n+2){
+        grid-column: span 3;
+        grid-row: 2;
+        margin: 10px; 
+        padding: 0 10px 0 10px;
+      }
+      *{
+          box-sizing: border-box;
+      }
     
     /*PIE*/
     footer{
