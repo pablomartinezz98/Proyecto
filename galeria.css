@@ -72,18 +72,8 @@ display: block;}
         text-align: center;
         color:#5BA0D6;
     }
-    .galeria {
-        display: ;
-        grid-auto-rows: 200px;
-        grid-gap: 1rem;
-        grid-auto-flow: row dense;
-        
-    }
-       .imagen:nth-child(11n+2){
-        grid-column: span 3;
-        grid-row: 2;
-        margin: 10px; 
-        padding: 0 10px 0 10px;
+       .imagen{
+        margin: 15px;
       }
       *{
           box-sizing: border-box;
@@ -152,8 +142,7 @@ main{
         column-count: 2;
         display: block;
     margin: auto;
-    }
-    }
+    }}
 
 /*MOVIL*/
 @media screen and (max-width:425px){
