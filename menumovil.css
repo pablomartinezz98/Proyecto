@@ -1,11 +1,7 @@
-<link href="//fonts.googleapis.com/css?family=Lobster:400" rel="stylesheet" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
 /*TABLET*/
 @media screen and (min-width:426px) and (max-width:768px){
-* {
-    box-sizing:border-box;
-  }
+
   <input type="checkbox" class="checkbox" id="menu-toogle"/>
 <label for="menu-toogle" class="menu-toogle"></label>
   body {

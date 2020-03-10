@@ -127,9 +127,9 @@ display: block;}
         width: 150px;
         height: 120px;
         margin: 10px;
+        box-shadow: 10px 10px #dadde3;
     }
-    .paises:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
-    .paises {overflow:hidden;}
+    
     /*PIE*/
     footer{
         display: block;
@@ -191,7 +191,7 @@ main{
             display: none;
         }
         main{
-            flex: 100%; 
+            flex: 50%; 
         }
         .der{
             display:none;
