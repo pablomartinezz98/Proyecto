@@ -4,12 +4,11 @@ html, body{
     display: flex;
     flex-direction: column;
 background-color: #ECF0F5;
-font-family: Book Antiqua;
-}
+font-family: book antiqua;}
 header{
-    height: 90px;
+    height: 65px;
     background-color: white;
-color: blue; }
+    color: blue; }
 #contenedor{
     height:80%;
     }
@@ -18,7 +17,7 @@ main{
     margin:10px;
 }
 article{
-    height: auto; }
+    height: auto;}
 aside{
     height: auto;
     background-color: white;
@@ -33,6 +32,7 @@ aside{
     }
     .cursos li a{
         color:#5BA0D6;
+        text-decoration: none;
     }
     .cursos p:hover{color:#206398}
     .cursos h3{
@@ -40,7 +40,7 @@ aside{
         padding: 10px;
         color:white;
         background-color: #5BA0D6;
-        opacity: 0.6;
+        opacity: 0.8;
     }
     /*HORARIO*/
     .izq h3{
@@ -48,28 +48,43 @@ aside{
         padding: 15px;
         color:white;
         background-color: #5BA0D6;
-        opacity: 0.6;
+        opacity: 0.8;
     }
     .izq span p{
         padding-top: 15px;
         color:#5BA0D6;
         margin: 10px;
-
     }
+    .dia{
+        text-align: center;
+        font-size: 18px;
+        color: green;
+    }
+    .imagen2{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: auto;}
     /*CENTRO*/
     #centro{
-        margin-left: 250px;
-        margin-right: 250px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     #centro h2{
         margin:10px;
         padding:15px;
+        margin: 20px;
+        padding:10px;
         text-align: center;
-        color:#5BA0D6;
+        color:white;
+        background-color:#5BA0D6;
+        border-radius: 15px;
     }
+    h2:hover{
+        background-image: linear-gradient(-90deg, #207ce5, #66D9DE);}
     .imagen{
-        width: 675px;
-        height: 350px;
+        width: 750px;
+        height: 450px;
         display: block;
         margin: auto;
     }
@@ -111,6 +126,10 @@ aside{
     .menu1 li a:hover{
         color: #206398;
     }
+    .texto{
+        font-size: 18px;
+    }
+      /*FOOTER*/
     footer{
         display: block;
         background-color:#DFAA00;
@@ -126,6 +145,7 @@ aside{
         padding: 5px;
         color: white;
         ;}
+      
         footer i:hover{color:black;}
         #redes{
             width: 100%;
@@ -135,7 +155,51 @@ aside{
             width: 100%;
             display: inline-block;
         }
+   /*Posicionamiento*/
+
+/*PC*/
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.izq{
+    flex: 15%;
+}
+main{
+    flex: 70%;
+}
+.der{
+    flex: 15%;
+}
+/*TABLET*/
+@media screen and (min-width:426px) and (max-width:768px){
    
+    .izq{
+        display: none;
+    }
+    main{
+        flex: 80%;
+    }
+    .der{
+        flex: 20%;
+    }
+    #erasmus{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .texto{margin: 0px 100px 0px 0px;}
+/*MOVIL*/
+@media screen and (max-width:425px){
         
-    
-    
+        main{
+            flex: 100%; 
+        }
+        .der{
+            display:none;
+        }  
+        #erasmus{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+}

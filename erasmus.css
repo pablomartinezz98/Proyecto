@@ -8,6 +8,7 @@ article{width: 100%; background-color: white;}
     
 .logo:hover{background-color: grey;}
 header{
+    height: 60px;
     padding: 2em;
 }
 .menu1{display: flex;
@@ -47,6 +48,7 @@ display: block;}
 .dia{
     font-size: 18px;
     color: green;
+    text-align: center;
 }
 .imagen2{
     width: 200px;
@@ -94,7 +96,7 @@ display: block;}
         border-radius: 15px;
     }
     h1:hover{
-        background-image: linear-gradient(-90deg, #33ccff, #6699ff);
+        background-image: linear-gradient(-90deg, #207ce5, #66D9DE);
     }
     .subrayado{
         text-align: left;
@@ -110,14 +112,14 @@ display: block;}
     h3:hover, h3:focus {
         background-size: 100% 2px;
     }
-    }
+    
     .europa{
         width: 500px;
     }
     .europa:hover {
         filter: opacity(.8);}
     .texto{
-        margin: 30 0 0 40;
+        margin: 0 100 0 40;
         font-size: 18px;
     }
     /*PAISES*/
@@ -126,7 +128,8 @@ display: block;}
         height: 120px;
         margin: 10px;
     }
-    
+    .paises:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+    .paises {overflow:hidden;}
     /*PIE*/
     footer{
         display: block;
@@ -169,11 +172,6 @@ main{
 .der{
     flex: 15%;
 }
-#galeria{
-    column-count: 3;
-}
-
-
 /*TABLET*/
 @media screen and (min-width:426px) and (max-width:768px){
    
@@ -186,15 +184,9 @@ main{
     .der{
         flex: 20%;
     }
-    #galeria{
-        column-count: 2;
-        display: block;
-    margin: auto;
-    }}
-
+    
 /*MOVIL*/
 @media screen and (max-width:425px){
-        
         .izq{
             display: none;
         }
@@ -202,12 +194,6 @@ main{
             flex: 100%; 
         }
         .der{
-            display:none
-        }
-        #galeria{
-            column-count: 1;
-        }
-        img{display: block;
-        margin: auto;
-        }
-    }
+            display:none;
+        }     
+}
