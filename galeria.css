@@ -104,8 +104,8 @@ display: block;}
      }
      .imagen1{
          margin: 25px;
-         width: 300px;
-         height: 300px;
+         width: 250px;
+         height: 250px;
      }
      .imagen1:hover {filter: opacity(.8);}
       div p{
@@ -154,9 +154,7 @@ main{
 .der{
     flex: 15%;
 }
-#galeria{
-    column-count: 3;
-}
+
 
 
 /*TABLET*/
@@ -171,12 +169,13 @@ main{
     .der{
         flex: 20%;
     }
-    #galeria{
-        column-count: 2;
-        display: block;
-    margin: auto;
-    }}
-    
+    .imagen1{
+        margin: 25px;
+        width: 200px;
+        height: 200px;
+    }
+    .imagen1:hover {filter: opacity(.8);}
+}
 
 /*MOVIL*/
 @media screen and (max-width:425px){
@@ -190,12 +189,13 @@ main{
         .der{
             display:none
         }
-        #galeria{
-            column-count: 1;
+        .imagen1{
+            margin: 25px;
+            width: 150px;
+            height: 150px;
         }
-        img{display: block;
-        margin: auto;
-        }
+        .imagen1:hover {filter: opacity(.8);}
+    }
     }
         
     
