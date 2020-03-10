@@ -1,0 +1,224 @@
+*{margin:0;}
+html, body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+background-color: #ECF0F5;
+font-family: Book Antiqua;
+}
+header{
+    height: 90px;
+    background-color: white;
+color: blue; }
+#contenedor{
+    height:80%;
+    }
+/*Mapa y Formulario*/
+#contenedor{
+    display: flex;
+    flex-direction: row;   
+}
+#mapa{
+    flex: 40%;
+    margin: 10px;
+    position: right ;
+}
+#formulario{
+    flex: 60%;
+    margin: 10px;
+    position: left;
+    background-color:transparent ;
+    color: #5BA0D6;
+}
+input,select,textarea{
+    width: 90%;margin: 0 auto; 
+    padding: 5px; 
+    margin-bottom: 20px;
+    font-weight: 100;
+    background-color: blanchedalmond;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 100;
+    text-align: left;
+}
+textarea{
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+legend{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+option{
+    border-radius: 5px;
+    
+}
+
+input[type=text]{
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+input[type=mail]{
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+input[type=subnit]{
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+input:hover[type=subnit]{
+    background-color:darkgreen;
+}
+
+input[type=text]{
+    padding: 10px;
+}
+
+textarea[name=campo4]{
+    padding: 10px;background-color: blanchedalmond;
+}
+
+optgroup{
+    color: white;
+}
+
+#intereses:focus{
+    background-color: #5BA0D6;
+    color: black;
+}
+fieldset label{
+    display: block;
+}
+    /*Cabecera*/
+    header{
+        padding: 1px;
+    }
+    .menu1{
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu1 li{
+        display: inline-block;
+        margin: auto;
+    }
+    .menu1 li a { 
+        text-decoration: none;
+        font-family: Arial;
+        font-size: 15px;
+        float: left;
+        padding: 30px;;
+        color:#5BA0D6;
+        display: block;
+    }
+    .menu1 li a:hover{
+            color: #206398;
+    }
+
+/*Pie de Página*/
+footer{
+    display: block;
+    background-color:#DFAA00;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    color: white;
+}
+    
+footer div i {
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+}
+    footer i:hover{color:black;}
+#redes{
+    width: 100%;
+    display: inline-block;
+}
+#direccion{
+    width: 100%;
+    display: inline-block;
+}
+/*Diseño Para Movil*/
+@media screen and (max-width:435px){
+        
+    .izq{
+        display: none;
+    
+    }  
+    .btm{
+        position: relative;
+        margin-top: 2%;
+        border: 2px solid #5BA0D6;
+        border-radius: 2px;
+        height: 36px;
+        width: 36px;
+    }
+    #linias::before{
+        border-bottom: 17px double #5BA0D6;
+        border-top: 6px solid black;
+        content: "";
+        height: 5px;
+        position: absolute;
+        right: 3px;
+        top: 4px;
+        width: 30px;
+    }
+    #contenedor{
+       display: left;
+       flex-direction: column;
+   }
+    .menu1{
+        display: none;
+    }
+}
+/*Diseño Para Tablet*/
+@media screen and (min-width:426px) and (max-width:768px){
+   
+    #mapa{
+        flex: 100%;
+    }
+    #formulario1{
+        flex: 60%;
+    }
+    .btm{
+        position: relative;
+        margin-top: 2%;
+        border: 2px solid #5BA0D6;
+        border-radius: 2px;
+        height: 36px;
+        width: 36px;
+    }
+    #linias::before{
+        border-bottom: 17px double #5BA0D6;
+        border-top: 6px solid black;
+        content: "";
+        height: 5px;
+        position: absolute;
+        right: 3px;
+        top: 4px;
+        width: 30px;
+    }
+    .menu1{
+        display: none;
+    }
+    #contenedor{
+        display: left;
+        flex-direction: column;
+    }
+}
