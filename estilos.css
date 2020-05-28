@@ -98,34 +98,40 @@ aside{
         color: grey;
     }
     /*MENU*/
-    
-   .logo:hover{background-color: grey;}
     header{
-        padding: 2em;
+        width: 100%;
+        background:#5BA0D6;
     }
-    .menu1{display: flex;
-    align-items: center;}
+   #botonmenu{
+    display: none;
+    }
+    header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right:1px solid #fff;
+    }
+    header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+    }
+    .menu ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    }
+    .menu li:hover{
+        background: rgba(0,0,0,0.3);
+    }
+    .menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    }
 
-    .menu1 li{
-        display: inline-block;
-        margin: auto;
-    }
-    .menu1 li a { 
- text-decoration: none;
-    font-family: Arial;
-    font-size: 15px;
-    float: left;
-    padding: 30px;;
-    color:#5BA0D6;
-    display: block
-    ;
-    }
-    .menu1 li a:hover{
-        color: #206398;
-    }
-    .texto{
-        font-size: 18px;
-    }
       /*FOOTER*/
     footer{
         display: block;
@@ -173,8 +179,28 @@ main{
 
 
 /*TABLET*/
-@media screen and (min-width:426px) and (max-width:768px){
+@media (max-width:768px){
    
+    header label {
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        background:#5BA0D6 ;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    /*la virgulilla lo que hace es buscar hasta que encuentre el selector*/
+    #botonmenu:checked ~ .menu {
+        margin: 0;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: 1px solid white;
+    }
     .izq{
         display: none;
     }
@@ -217,5 +243,4 @@ main{
                 display: block;
                 margin: auto;
                 padding-top: 30px;
-           
     }
