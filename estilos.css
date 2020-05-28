@@ -179,7 +179,7 @@ main{
 
 
 /*TABLET*/
-@media (max-width:768px){
+@media screen and (max-width:768px){
    
     header label {
         display: block;
@@ -202,19 +202,27 @@ main{
         border-top: 1px solid white;
     }
     .izq{
-        display: none;
+        display: 20%;
     }
     main{
         flex: 80%;
     }
     .der{
-        flex: 20%;
+        display: none;
     }
     .texto{
         margin-right: 40%;
         font-size: 18px;}
 } 
-    
+    #centro{
+            margin-right: 25%;
+            font-size: 18px;}
+    .imagen{
+             width: 500px;
+             height: 400px;
+             display: block;
+             margin: auto;
+            }
 
 /*MOVIL*/
 @media screen and (max-width:425px){
