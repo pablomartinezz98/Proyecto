@@ -90,7 +90,9 @@ header{
         opacity: 0.8;
     }
     /*CENTRO*/
-    
+    #erasmus{
+        margin-left: 30px;
+    }
     h1{
         width: 40%;
         margin-left: 25%;
@@ -163,20 +165,20 @@ header{
     flex-direction: row;
 }
 .izq{
-    flex: 15%;
+    flex: 10%;
 }
 main{
-    flex: 70%;
+    flex: 80%;
 }
 .der{
-    flex: 15%;
+    flex: 10%;
 }
 
 /*TABLET*/
 @media screen and (max-width:768px)  and (min-width:426px) {   
     
     .izq{
-        flex: 15%;
+        flex: 10%;
     }
     main{
         flex: 80%;
@@ -230,6 +232,10 @@ main{
     .menu li{
         border-top: 1px solid white;
     }
+    .subrayado{
+        text-align: left;
+        font-size:25px;
+    }
 }
 
 /*MOVIL*/
@@ -243,10 +249,6 @@ main{
         }
         .der{
             display:none
-        }
-        #erasmus{
-            margin-left: 50px;
-            margin-right: 0px;
         }
         h1{
             width: 40%;
@@ -292,4 +294,13 @@ main{
     .subrayado{
         margin-right: 100px;
     }
+    .subrayado{
+        text-align: left;
+        font-size:20px;
+    }
+    #erasmus{
+        margin-left: 5px;
+    }
+    #contenedor{margin: 0px;}
+    main{background-color: white;margin: 0px 0px 0px 0px;}
 }
