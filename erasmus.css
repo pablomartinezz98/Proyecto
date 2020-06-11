@@ -165,20 +165,20 @@ header{
     flex-direction: row;
 }
 .izq{
-    flex: 10%;
+    flex: 15%;
 }
 main{
-    flex: 80%;
+    flex: 70%;
 }
 .der{
-    flex: 10%;
+    flex: 15%;
 }
 
 /*TABLET*/
 @media screen and (max-width:768px)  and (min-width:426px) {   
     
     .izq{
-        flex: 10%;
+        flex: 20%;
     }
     main{
         flex: 80%;
