@@ -94,9 +94,8 @@ header{
         margin-left: 30px;
     }
     h1{
-        width: 40%;
-        margin-left: 25%;
-        margin-right:10px;
+       margin:10px;
+        padding:15px;
         margin: 20px;
         padding:10px;
         text-align: center;
@@ -251,7 +250,7 @@ main{
             display:none
         }
         h1{
-            width: 40%;
+            width: 60%;
             margin-left: 0;
         }
         .texto{

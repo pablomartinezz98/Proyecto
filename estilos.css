@@ -68,7 +68,6 @@ aside{
         display: block;
         margin: auto;}
     /*CENTRO*/
-        
     #centro h2{
         margin:10px;
         padding:15px;
@@ -82,7 +81,7 @@ aside{
     h2:hover{
         background-image: linear-gradient(-90deg, #207ce5, #66D9DE);}
     .imagen{
-        width: 750px;
+        width: 700px;
         height: 450px;
         display: block;
         margin: auto;
@@ -185,7 +184,7 @@ main{
 
 
 /*TABLET*/
-@media screen and (min-width:426px) and (max-width:768px) {   
+@media screen and (min-width:640px) and (max-width:768px) {   
 
    .izq{
         display: none;
@@ -219,17 +218,16 @@ main{
         font-size: 18px;}
 } 
     #centro{
-            margin-right: 25%;
+            margin-left: 20px;
             font-size: 18px;}
     .imagen{
              width: 400px;
              height: 350px;
-            
              margin: auto;
             }
 
 /*MOVIL*/
-@media screen and (max-width:425px){
+@media screen and (max-width:639px){
         
         .izq{
             display: none;
@@ -241,6 +239,7 @@ main{
             display:none
         }
         #centro{
+            margin-left: 10px;
             margin-right: 25%;
             font-size: 18px;}
             .imagen{
@@ -274,4 +273,15 @@ main{
     }
     .menu li{
         border-top: 1px solid white;
+    }
+    #centro h2{
+        margin:10px;
+        padding:15px;
+        margin: 20px;
+        padding:10px;
+        width: 90%;
+        text-align: center;
+        color:white;
+        background-color:#5BA0D6;
+        border-radius: 15px;
     }
