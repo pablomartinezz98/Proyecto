@@ -87,7 +87,6 @@ header{
         padding: 10px;
         color:white;
         background-color: #5BA0D6;
-        opacity: 0.8;
     }
     /*CENTRO*/
     #erasmus{
@@ -177,10 +176,10 @@ main{
 @media screen and (max-width:768px)  and (min-width:426px) {   
     
     .izq{
-        flex: 20%;
+        display:none;
     }
     main{
-        flex: 80%;
+        flex: 100%;
     }
     .der{
         display: none;
@@ -194,7 +193,7 @@ main{
         margin-right: 50px;
     }
     .texto{
-        margin-right: 45%;
+        margin-right: 10%;
         font-size: 18px;}
     .paises{
             width: 150px;
@@ -203,7 +202,7 @@ main{
             box-shadow: 10px 10px #dadde3;
         }
         .europa{
-            width: 300px;
+            width: 320px;
         }
         .europa:hover {
             filter: opacity(.8);}
@@ -262,7 +261,7 @@ main{
                 box-shadow: 10px 10px #dadde3;
             }
             .europa{
-                width: 200px;
+                width: 250px;
             }
             .europa:hover {
                 filter: opacity(.8);}

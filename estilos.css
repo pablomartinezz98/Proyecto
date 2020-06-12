@@ -42,7 +42,6 @@ aside{
         padding: 10px;
         color:white;
         background-color: #5BA0D6;
-        opacity: 0.8;
     }
     /*HORARIO*/
     .izq h3{
@@ -50,7 +49,6 @@ aside{
         padding: 15px;
         color:white;
         background-color: #5BA0D6;
-        opacity: 0.8;
     }
     .izq span p{
         padding-top: 15px;
@@ -184,16 +182,16 @@ main{
 
 
 /*TABLET*/
-@media screen and (min-width:640px) and (max-width:768px) {   
+@media screen and (min-width:426px) and (max-width:768px) {   
 
    .izq{
         display: none;
     }
     main{
-        flex: 80%;
+        flex: 100%;
     }
     .der{
-        flex: 20%;
+        display:none;
     }
 
     header label {
@@ -221,13 +219,13 @@ main{
             margin-left: 20px;
             font-size: 18px;}
     .imagen{
-             width: 400px;
-             height: 350px;
+             width: 350px;
+             height: 290px;
              margin: auto;
             }
 
 /*MOVIL*/
-@media screen and (max-width:639px){
+@media screen and (max-width:425px){
         
         .izq{
             display: none;
